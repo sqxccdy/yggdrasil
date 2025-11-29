@@ -1,8 +1,11 @@
 # 世界树计划
+整体项目包含 中控客户端、记忆体仓库、世界树编译器最终导出世界副本。
+
+[记忆体结构协议](docs/protocol/pep1_momory_structure_protocol.md)、[记忆体语义树](docs/protocol/pep2_momory_semantic_tree.md)、
 
 #### 基本计划
 
-1. 定义基础的外部因素，定义存储结构。定时ai构建方式，定义时间通过ai来构建一个复杂的电子世界
+1. 定义基础的外部因素，定义存储结构。定义时间通过ai来构建一个复杂的电子世界
 2. 根据ai的运行，来构建产生不同的事件。截流筛选出对应时间线。生成世界副本。
 3. 在世界副本植入可以外部控制的玩家，构建一个游戏世界
 
@@ -33,7 +36,7 @@
 yggdrasil引擎主要从4个方面向你介绍, 分别为 新手入门、基本功能、进阶内容、环境与工具来帮助快速搭建属于自己的赛博世界。
 帮助您创建属于自己的世界副本。构建独属于自己的传奇史诗
 
-* 新手入门：[了解引擎](docs/getting_started_introduction.md) / [基本概念](docs/getting_started_basic_conception.md)
+* 新手入门：[了解引擎](docs/guide/getting_started_introduction.md) / [基本概念](docs/guide/getting_started_basic_conception.md)
 * 基本功能：精灵 / 动作 / 场景 / UI 组件
 * 进阶内容：特殊节点对象 / 事件分发机制 / 3D 支持 / 使用脚本 / 物理引擎 / 音乐和音效 / 高级话题
 * 环境与工具：环境搭建 / 引擎工具
